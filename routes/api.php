@@ -1,15 +1,10 @@
 <?php
-
-use App\Http\Controllers\AdminDashbord\AdminNotificationController;
-use App\Http\Controllers\AdminDashbord\postCptroller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\{workerAuthController,AuthController,ClientAuthController};
-use App\Http\Controllers\Clinet\ClinetServicesController;
-use App\Http\Controllers\PostCotroller;
-use App\Http\Controllers\WorkerEXportAndImport;
-use App\Http\Controllers\WorkerProfileController;
-use App\Http\Controllers\WorkerReviewController;
+use App\Http\Controllers\{PostCotroller,AdminDashbord\AdminNotificationController,
+    AdminDashbord\postCptroller,Clinet\ClinetServicesController,
+    WorkerReviewController,WorkerEXportAndImport,WorkerProfileController};
 use Illuminate\Support\Facades\Storage;
 
 /*
